@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url('olive.jpg');
+  background-repeat: repeat;
+}
+
+body {
+  margin: 0% auto;
+  width: 80%;
+  background-image: url('cork-board.png');
+  background-repeat: repeat;
+  font-family: 'Nanum Gothic', sans-serif;
+  padding-bottom: 30px;
+}
+
+#header {
+  width: 100%;
+  height: 270px;
+  background-image: url('crops_image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header h1 {
+  font-size: 60px;
+  color: #551e08;
+  text-shadow: bisque 1px 2px 6px;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 80px;
+}
+
+#tile {
+  background-color: burlywood;
+  width: 220px;
+  height: 200px;
+  margin: 50px 20px 0px 20px;
+  align-items: center;
+  padding: 10px;
+  border: olive solid 3px;
+  border-radius: 25px;
+}
+
+#crop-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
